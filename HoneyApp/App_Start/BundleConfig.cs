@@ -20,6 +20,7 @@ namespace HoneyApp
 						"~/Scripts/jquery.validate*"));
 
 			bundles.Add(new ScriptBundle("~/bundles/customscripts").Include(
+						"~/Scripts/taffy.js",
 						"~/Scripts/admin.js",
 						"~/Scripts/styles.js"));
 
