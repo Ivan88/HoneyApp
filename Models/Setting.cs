@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace HoneyApp.Models
+namespace Models
 {
-	public class Setting
-	{
+    public class Setting
+    {
 		public int Id { get; set; }
 		public string Name { get; set; }
-		public int Availability { get; set; }
 		public string Description { get; set; }
-	}
+		public int Availability { get; set; }
+    }
 }

@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyApp", "HoneyApp\HoneyApp.csproj", "{F935FB39-6317-4043-B262-8ED1086AC546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlConnector", "XmlConnector\XmlConnector.csproj", "{C7F45CBC-9570-4911-B6C4-868BF265E298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{A32E7294-EFF7-4166-9ED8-B89B9A1E375F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F935FB39-6317-4043-B262-8ED1086AC546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F935FB39-6317-4043-B262-8ED1086AC546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F935FB39-6317-4043-B262-8ED1086AC546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F45CBC-9570-4911-B6C4-868BF265E298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F45CBC-9570-4911-B6C4-868BF265E298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F45CBC-9570-4911-B6C4-868BF265E298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F45CBC-9570-4911-B6C4-868BF265E298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32E7294-EFF7-4166-9ED8-B89B9A1E375F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32E7294-EFF7-4166-9ED8-B89B9A1E375F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32E7294-EFF7-4166-9ED8-B89B9A1E375F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32E7294-EFF7-4166-9ED8-B89B9A1E375F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
