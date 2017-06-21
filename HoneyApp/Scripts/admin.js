@@ -79,33 +79,33 @@ $(window).ready(function () {
 //обработчики кнопок  - види меду
     $('.nav_container_hony_on').click(function () {
         $(".modal_title").text('Травневий мед');
-        $('.model_img').css({'background':'url("img/magnolia.jpeg") no-repeat', "background-size": "100%"});
+        $('.model_img').css({'background':'url("../Images/magnolia.jpeg") no-repeat', "background-size": "100%"});
         informer("Травневий мед");
     });
     $('.nav_container_hony_two').click(function () {
         //по аналогії картинка змінюється для всіх видів меду
         $(".modal_title").text('Гречаний мед');
-        $('.model_img').css({'background':'url("img/grecka 2.jpg") no-repeat', "background-size": "100%"});
+        $('.model_img').css({ 'background': 'url("../Images/grecka 2.jpg") no-repeat', "background-size": "100%" });
         informer("Гречаний мед");
     });
     $('.nav_container_hony_three').click(function () {
         $(".modal_title").text('Липовий мед');
-        $('.model_img').css({'background':'url("img/lipa.jpg") no-repeat', "background-size": "100%"});
+        $('.model_img').css({ 'background': 'url("../Images/lipa.jpg") no-repeat', "background-size": "100%" });
         informer("Липовий мед");
     });
     $('.nav_container_hony_four').click(function () {
         $(".modal_title").text('Соняшниковий мед');
-        $('.model_img').css({'background':'url("img/podsolnuhi.jpg") no-repeat', "background-size": "100%"});
+        $('.model_img').css({ 'background': 'url("../Images/podsolnuhi.jpg") no-repeat', "background-size": "100%" });
         informer("Соняшниковий мед");
     });
     $('.nav_container_hony_five').click(function () {
         $(".modal_title").text('Квітковий мед');
-        $('.model_img').css({'background':'url("img/poleve.jpg") no-repeat', "background-size": "100%"});
+        $('.model_img').css({ 'background': 'url("../Images/poleve.jpg") no-repeat', "background-size": "100%" });
         informer("Квітковий мед");
     });
     $('.nav_container_hony_six').click(function () {
         $(".modal_title").text('Акацієвий мед');
-        $('.model_img').css({'background':'url("img/ackacia.jpg") no-repeat', "background-size": "100%"});
+        $('.model_img').css({ 'background': 'url("../Images/ackacia.jpg") no-repeat', "background-size": "100%" });
         informer("Акацієвий мед");
     });
 

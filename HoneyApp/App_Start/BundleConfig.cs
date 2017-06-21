@@ -31,8 +31,8 @@ namespace HoneyApp
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
 						"~/Content/site.css",
-						"~/Content/styles.css",
-						"~/Content/styles.scss"));
+						"~/Content/styles.css"));//,
+						//"~/Content/styles.scss"));
 
 			bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
 						"~/Content/themes/base/jquery.ui.core.css",
