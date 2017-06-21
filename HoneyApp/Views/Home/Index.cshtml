@@ -4,14 +4,14 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Russo+One" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    @*<link rel="stylesheet" href="styles.css">*@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/taffy.js"></script>
-    <script src="js/admin.js"></script>
+    @*<script src="js/jquery-3.2.1.min.js"></script>*@
+    @*<script src="js/taffy.js"></script>
+    <script src="js/admin.js"></script>*@
     <!--<script src="js/jquery-ui.js"></script>-->
     <script src="https://use.fontawesome.com/f34d25a70c.js"></script>
-    <script src="js/styles.js"></script>
+    @*<script src="js/styles.js"></script>*@
     <meta charset="UTF-8">
     <title>Бджільництво</title>
 
@@ -19,6 +19,8 @@
     <meta name="viewport" content="width=device-width" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/customscripts")
 </head>
 
 <body>
@@ -39,8 +41,8 @@
     </div>
 
     <div id="mainContent">
-        <img src="img/organic.png" alt="" class="main_logo">
-        <video poster="img/597665799.jpg" id="bee" playsinline autoplay muted loop>
+        <img src="~/Images/organic.png" alt="" class="main_logo">
+        <video poster="~/Images/597665799.jpg" id="bee" playsinline autoplay muted loop>
             <source src=""
                     type="video/mp4">
         </video>
@@ -49,7 +51,7 @@
     <div id="container_honey">
 
         <div class="honey">
-            <img src="img/2017.png" alt="" class="sale">
+            <img src="~/Images/2017.png" alt="" class="sale">
             <div class="honey_animation">
                 <div class="honey_animation_bee_1"></div>
                 <div class="honey_animation_bee_2"></div>
@@ -179,7 +181,5 @@
 <div class="tooltips">
     <p class="tooltips_text"></p>
 </div>
-
- @Scripts.Render("~/bundles/jquery")
 </body>
 </html>
