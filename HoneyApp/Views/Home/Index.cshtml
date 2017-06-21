@@ -1,35 +1,185 @@
 ﻿
-
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Мед від Яріка!</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/taffy.js"></script>
+    <script src="js/admin.js"></script>
+    <!--<script src="js/jquery-ui.js"></script>-->
+    <script src="https://use.fontawesome.com/f34d25a70c.js"></script>
+    <script src="js/styles.js"></script>
+    <meta charset="UTF-8">
+    <title>Бджільництво</title>
+
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
+
 <body>
-    <header>
-        <div class="content-wrapper">
-        </div>
-    </header>
-    <div id="body">
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1>Мед від Яріка</h1>
-            </hgroup>
-        </div>
-    </div>
-    <footer>
-        <div class="content-wrapper">
-            <div class="float-left">
-                <p>&copy; @DateTime.Now.Year - Мед від Яріка!</p>
+<div class="container">
+    <div class="header">
+        <div class="menuHolder">
+            <div class="menuLogo"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#mainContent" id="start">НА ПОЧАТОК</a></li>
+                    <li><a href="#container_honey">МЕД</a></li>
+                    <li><a href="#container_honeycomb">БДЖОЛО-ПРОДУКТИ </a></li>
+                    <li><a href="#container_slider">ГАЛЕРЕЯ</a></li>
+                    <li><a href="#footer">КОНТАКТИ</a></li>
+                </ul>
             </div>
         </div>
-    </footer>
+    </div>
 
-    @Scripts.Render("~/bundles/jquery")
+    <div id="mainContent">
+        <img src="img/organic.png" alt="" class="main_logo">
+        <video poster="img/597665799.jpg" id="bee" playsinline autoplay muted loop>
+            <source src=""
+                    type="video/mp4">
+        </video>
+    </div>
+
+    <div id="container_honey">
+
+        <div class="honey">
+            <img src="img/2017.png" alt="" class="sale">
+            <div class="honey_animation">
+                <div class="honey_animation_bee_1"></div>
+                <div class="honey_animation_bee_2"></div>
+                <div class="honey_animation_bee_3"></div>
+            </div>
+            <div class="nav_hony">
+                <nav class="nav_container_hony nav_container_hony_on">
+                    <div class="nav_bor"></div>
+                    <div id="nav_button_on" class="button">
+                        <h4>ТРАВНЕВИЙ<br>МЕД</h4>
+                    </div>
+                </nav>
+                <nav class="nav_container_hony nav_container_hony_two">
+                    <div id="nav_button_two" class="button">
+                        <h4>ГРЕЧАНИЙ<br>МЕД</h4>
+                    </div>
+                </nav>
+                <nav class="nav_container_hony nav_container_hony_three">
+                    <div id="nav_button_three" class="button">
+                        <h4>ЛИПОВИЙ<br>МЕД</h4>
+                    </div>
+                </nav>
+                <nav class="nav_container_hony nav_container_hony_four">
+                    <div id="nav_button_four" class="button">
+                        <h4>СОНЯШНИКОВИЙ<br>
+                            <span class="fon_four">МЕД</span>
+                        </h4>
+                    </div>
+                </nav>
+                <nav class="nav_container_hony nav_container_hony_five">
+                    <div id="nav_button_five" class="button">
+                        <h4>КВІТКОВИЙ<br>МЕД</h4>
+                    </div>
+                </nav>
+                <nav class="nav_container_hony nav_container_hony_six">
+                    <div id="nav_button_six" class="button">
+                        <h4>АКАЦІЕВИЙ<br>МЕД</h4>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="container_parallax_honey">
+            <div class="parallax_honey_img_1"></div>
+            <div class="parallax_honey_img_2"></div>
+        </div>
+    </div>
+
+    <div id="container_honeycomb">
+
+    </div>
+    <div class="parallax_honeycomb">
+    </div>
+
+    <div id="container_bee-products">
+
+        <div class="slider_bee-products">
+            <h2 class="title_bee-products">ПИЛОК</h2>
+            <p class="description_bee-products"> Пилок - це засіб для лікування та
+                профілактики багатьох захворювань і , крім того, сильний біологічний стимулятор .
+                Він містить незамінні вітаміни , більша частина яких не виробляється організмом
+                людини , і повинна надходити із зовнішнього середовища. Завдяки цим речовинам ,
+                пилок має протизапальні , сечогінні , жовчогінні , капіляропідкріплюючі і
+                протипухлинні властивості. Але найважливішим є вміст в пилку фітонцидів, які захищають рослини від
+                вірусів, бактерій і грибків. Бджолине обніжжя надає більш повний вплив на
+                людський організм, ніж синтетичні вітамінні препарати. Це живий, природний
+                продукт, що не проходить додаткової обробки і не втрачає при цьому своїх
+                корисних властивостей і біологічно активних речовин.
+                </p>
+            <div class="img_bee-products"></div>
+        </div>
+        <ul class="nav_bee-products">
+            <li class="button_bee_products" id="button_bee-products_on">
+                <p >ПИЛОК</p>
+            </li>
+            <li class="button_bee_products" id="button_bee-products_two">
+                <p >ПЕРГА</p>
+            </li>
+            <li class="button_bee_products" id="button_bee-products_three">
+                <p class="btn3">ПРОПОЛІС</p>
+            </li>
+            <li class="button_bee_products" id="button_bee-products_four">
+                <p class="btn4">ЗАБРУС</p>
+            </li>
+            <li class="button_bee_products" id="button_bee-products_five">
+                <p class="btn5">ВІСК</p>
+            </li>
+            <li class="button_bee_products" id="button_bee-products_six">
+                <p class="btn6">ВОСКОВА <br> МІЛЬ</p>
+            </li>
+        </ul>
+
+        </div>
+
+    </div>
+
+<div class="parallax_bee-products"></div>
+
+
+<div id="container_slider">4
+
+    </div>
+    <div id="footer">
+        <div class="footer_content">
+            <p>Дякуємо, що були з нами!<br>
+                Маємо надію, що переглянута інформація була для Вас корисною. <br>
+                При бажанні дізнатися більше, або замовити мед в м. Вінниця, <br>
+                Ви можете зв'язатись з нами: <br> 096 81 46 848 <br> 063 61 99 055
+            </p>
+        </div>
+
+    </div>
+    <div class="container_modal_window">
+        <div class="flex_box_modal_window">
+            <div class="modal_window">
+               <div class="model_img"></div>
+                 <h3 class="modal_title"></h3>
+                  <p class="modal_Description"></p>
+             </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="tooltips">
+    <p class="tooltips_text"></p>
+</div>
+
+ @Scripts.Render("~/bundles/jquery")
 </body>
 </html>

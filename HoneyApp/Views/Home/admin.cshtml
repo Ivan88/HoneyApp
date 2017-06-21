@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>admin</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/taffy.js"></script>
+    <script src="js/admin.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>Керування наявністю меду</h1>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Вид меду</th>
+                <th>Наявність</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Травневий мед</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default tr0" id="tr0" onClick="getdetails(this)">Ще не
+                            сезон
+                        </button>
+                        <button type="button" class="btn btn-default tr1" id="tr1" onClick="getdetails(this)">Є в
+                            наявності
+                        </button>
+                        <button type="button" class="btn btn-default tr2" id="tr2" onClick="getdetails(this)">Немає в
+                            наявності
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Гречаний мед</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default gr0" id="gr0" onClick="getdetails(this)">Ще не
+                            сезон
+                        </button>
+                        <button type="button" class="btn btn-default gr1" id="gr1" onClick="getdetails(this)">Є в
+                            наявності
+                        </button>
+                        <button type="button" class="btn btn-default gr2" id="gr2" onClick="getdetails(this)">Немає в
+                            наявності
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Липовий мед</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default lu0" id="lu0" onClick="getdetails(this)">Ще не
+                            сезон
+                        </button>
+                        <button type="button" class="btn btn-default lu1" id="lu1" onClick="getdetails(this)">Є в
+                            наявності
+                        </button>
+                        <button type="button" class="btn btn-default lu2" id="lu2" onClick="getdetails(this)">Немає в
+                            наявності
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Соняшниковий мед</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default so0" id="so0" onClick="getdetails(this)">Ще не
+                            сезон
+                        </button>
+                        <button type="button" class="btn btn-default so1" id="so1" onClick="getdetails(this)">Є в
+                            наявності
+                        </button>
+                        <button type="button" class="btn btn-default so2" id="so2" onClick="getdetails(this)">Немає в
+                            наявності
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Квітковий мед</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default kv0" id="kv0" onClick="getdetails(this)">Ще не
+                            сезон
+                        </button>
+                        <button type="button" class="btn btn-default kv1" id="kv1" onClick="getdetails(this)">Є в
+                            наявності
+                        </button>
+                        <button type="button" class="btn btn-default kv2" id="kv2" onClick="getdetails(this)">Немає в
+                            наявності
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Акацієвий мед</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default ak0" id="ak0" onClick="getdetails(this)">Ще не
+                            сезон
+                        </button>
+                        <button type="button" class="btn btn-default ak1" id="ak1" onClick="getdetails(this)">Є в
+                            наявності
+                        </button>
+                        <button type="button" class="btn btn-default ak2" id="ak2" onClick="getdetails(this)">Немає в
+                            наявності
+                        </button>
+                    </div>
+                </td>
+            </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+</div>
+ @Scripts.Render("~/bundles/jquery")
+</body>
+</html>
