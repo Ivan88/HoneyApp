@@ -9,7 +9,8 @@ namespace HoneyApp
 		public static void RegisterBundles(BundleCollection bundles)
 		{
 			bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-						"~/Scripts/jquery-3.2.1.js"));
+						"~/Scripts/jquery-{version}.js",
+						"~/Scripts/jquery-3.2.1.min.js"));
 
 			bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
 						"~/Scripts/jquery-ui-{version}.js"));
