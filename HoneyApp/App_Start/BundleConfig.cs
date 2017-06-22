@@ -30,7 +30,7 @@ namespace HoneyApp
 						"~/Scripts/modernizr-*"));
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
-						"~/Content/site.css",
+						"~/Content/Site.css",
 						"~/Content/styles.css"));//,
 						//"~/Content/styles.scss"));
 
