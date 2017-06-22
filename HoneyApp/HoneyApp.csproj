@@ -263,6 +263,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\styles.scss" />
     <Content Include="Images\.DS_Store" />
+    <Content Include="Content\styles.css.map" />
     <None Include="Properties\PublishProfiles\MyProfile.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Images\1111.jpg" />
@@ -280,6 +281,7 @@
     <Content Include="Images\bee2reflected.png" />
     <Content Include="Images\Beekeeper1.jpg" />
     <Content Include="Images\Beekeeper2.jpg" />
+    <Content Include="Images\Bees-on-Frame-2.jpg" />
     <Content Include="Images\dfhft.png" />
     <Content Include="Images\fgtntgnf.png" />
     <Content Include="Images\gdtrg.png" />
@@ -293,6 +295,7 @@
     <Content Include="Images\images %283%29.jpg" />
     <Content Include="Images\imeg bee\2017.png" />
     <Content Include="Images\imeg bee\480.jpg" />
+    <Content Include="Images\imeg bee\59398-OAB3VW-247.png" />
     <Content Include="Images\imeg bee\about-beekeeping%402x.jpg" />
     <Content Include="Images\imeg bee\beekeeper-and-field.jpg" />
     <Content Include="Images\imeg bee\beekeeping.jpg" />
@@ -307,6 +310,7 @@
     <Content Include="Images\pattern.png" />
     <Content Include="Images\podsolnuhi.jpg" />
     <Content Include="Images\poleve.jpg" />
+    <Content Include="Images\scheme.png" />
     <Content Include="Images\thdt.png" />
     <Content Include="Images\Untitled-2.png" />
     <Content Include="Images\Vector-Smart-Object2.png" />
@@ -329,6 +333,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\styles.js" />
     <Content Include="Scripts\taffy.js" />
+    <Content Include="Videos\HONEY BEES  ULTRA HD.mp4" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -380,13 +385,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj">
-      <Project>{a32e7294-eff7-4166-9ed8-b89b9a1e375f}</Project>
-      <Name>Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\XmlConnector\XmlConnector.csproj">
-      <Project>{c7f45cbc-9570-4911-b6c4-868bf265e298}</Project>
-      <Name>XmlConnector</Name>
+    <ProjectReference Include="..\XmlDataProvider\XmlDataProvider.csproj">
+      <Project>{389e6f17-21d1-422a-8d80-c81b91ac8e65}</Project>
+      <Name>XmlDataProvider</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
