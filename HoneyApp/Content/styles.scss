@@ -105,7 +105,7 @@ ul {
   width: 100vw;
   height:49vw;
   position: relative;
-  background: url("~/Images/Vector-Smart-Object2.png") no-repeat;
+  background: url("../Images/Vector-Smart-Object2.png") no-repeat;
   background-size: 100%;
   top: -1.8vw;
   z-index: 99;
@@ -129,7 +129,7 @@ ul {
   width: 4vw;
   height: 9vw;
   position: absolute;
-  background: url("~/Images/bee1.png") no-repeat;
+  background: url("../Images/bee1.png") no-repeat;
   background-size: 100%;
   // z-index: 0;
 }
@@ -187,7 +187,7 @@ ul {
   height: 3vw;
   position: absolute;
   margin: 2vw -2.2vw;
-  background: url("~/Images/bee2.png") no-repeat;
+  background: url("../Images/bee2.png") no-repeat;
   background-size: 100%;
   /* animation-name: animation11;
    animation-duration: 3s;
@@ -198,7 +198,7 @@ ul {
 
 .honey_animation_bee_1:after {
   margin: 2vw 1.3vw;
-  background: url("~/Images/bee2reflected.png") no-repeat;
+  background: url("../Images/bee2reflected.png") no-repeat;
   background-size: 100%;
   transform: scaleX(-1);
   /* animation-name: animation1;
@@ -252,7 +252,7 @@ ul {
   width: 5vw;
   height: 4vw;
   position: absolute;
-  background: url("~/Images/bee2.png") no-repeat;
+  background: url("../Images/bee2.png") no-repeat;
   background-size: 100%;
   margin: 2.7vw -2.7vw;
 }
@@ -359,37 +359,37 @@ ul {
 //ВЕРХНЯЯ ЧАСТЬ КНОПКИ
 #nav_button_on {
 
-  background: url("~/Images/thdt.png") no-repeat;
+  background: url("../Images/thdt.png") no-repeat;
   background-size: 100%;
   margin: 0.7vw 0.38vw ;
 }
 
 #nav_button_two {
-  background: url("~/Images/thdt.png") no-repeat;
+  background: url("../Images/thdt.png") no-repeat;
   background-size: 100%;
   margin: 0.7vw 0.37vw ;
 }
 
 #nav_button_three {
-  background: url("~/Images/gdtrg.png") no-repeat;
+  background: url("../Images/gdtrg.png") no-repeat;
   background-size: 100%;
   margin: 0.7vw 0.4vw ;
 }
 
 #nav_button_four {
-  background: url("~/Images/gfrsd.png") no-repeat;
+  background: url("../Images/gfrsd.png") no-repeat;
   background-size: 100%;
   margin: 0.7vw 0.4vw ;
 }
 
 #nav_button_five {
-  background: url("~/Images/gfrsd.png") no-repeat;
+  background: url("../Images/gfrsd.png") no-repeat;
   background-size: 100%;
   margin: 0.68vw 0.35vw ;
 }
 
 #nav_button_six {
-  background: url("~/Images/3f.png") no-repeat;
+  background: url("../Images/3f.png") no-repeat;
   background-size: 100%;
   margin: 0.7vw 0.37vw ;
 }
@@ -442,7 +442,7 @@ ul {
   width: 100vw;
   height:52vw;
   position: relative;
-  background: url("~/Images/Beekeeper1.jpg") no-repeat;
+  background: url("../Images/Beekeeper1.jpg") no-repeat;
   background-size: cover;
   //background-attachment: fixed;
   //top:-4vw;
@@ -452,7 +452,7 @@ ul {
   width: 4vw;
   height: 6vw;
   position: absolute;
-  background: url("~/Images/bee222.png") no-repeat;
+  background: url("../Images/bee222.png") no-repeat;
   background-size: 100%;
   margin: 25vw 32vw;
 }
@@ -462,7 +462,7 @@ ul {
   width: 3vw;
   height: 5vw;
   position: absolute;
-  background: url("~/Images/bee222.png") no-repeat;
+  background: url("../Images/bee222.png") no-repeat;
   background-size: 100%;
   margin: 8vw 51vw;
 }
@@ -475,7 +475,7 @@ ul {
   width: 3vw;
   height: 6vw;
   position: absolute;
-  background: url("~/Images/bee222.png") no-repeat;
+  background: url("../Images/bee222.png") no-repeat;
   background-size: 100%;
   margin: -1vw -57vw;
 }
@@ -486,7 +486,7 @@ ul {
   width: 100vw;
   height: 50vw;
   background-color: #ffc32f;
-  background-image: url("~/Images/scheme.png");
+  background-image: url("../Images/scheme.png");
   background-size: 100%;
   box-shadow: 0 0 20px 0;
   z-index: 2;
@@ -497,7 +497,7 @@ ul {
 .parallax_honeycomb {
   width: 100vw;
   height:52vw;
-  background: url("~/Images/597665799.jpg") no-repeat;
+  background: url("../Images/597665799.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   //top:-4vw;
@@ -520,7 +520,7 @@ ul {
 #container_bee-products {
   width: 100vw;
   height: 45vw;
-  background: url("~/Images/waves.gif") no-repeat;
+  background: url("../Images/waves.gif") no-repeat;
   background-size: 100%;
   box-shadow: 0 0 20px 0;
   z-index: 2;
@@ -593,7 +593,7 @@ ul {
 .button_bee_products {
   width: 10vw;
   height: 10vw;
-  background: url("~/Images/imeg bee/cell.png") no-repeat;
+  background: url("../Images/imeg bee/cell.png") no-repeat;
   background-size: 100%;
   //position: relative;
   display: flex;
@@ -619,7 +619,7 @@ ul {
   width: 100vw;
   height:52vw;
   //position: relative;
-  background: url("~/Images/about-beekeeping@2x.jpg") no-repeat;
+  background: url("../Images/about-beekeeping@2x.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
@@ -639,7 +639,7 @@ ul {
 
   width: 100vw;
   height:30vw;
-  background: url("~/Images/Bees-on-Frame-2.jpg") no-repeat;
+  background: url("../Images/Bees-on-Frame-2.jpg") no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -669,7 +669,7 @@ ul {
   top: 0;
   right: 0;
   background-color: rgba(139, 17, 0, 0.83);
-  background-image: url("~/Images/pattern.png");
+  background-image: url("../Images/pattern.png");
   display: none;
   z-index: 9999999;
 }
@@ -691,7 +691,7 @@ ul {
   width: 90vw;
   height: 60vw;
   background-color: #ffc32f;
-  background: url("~/Images/imeg bee/59398-OAB3VW-247.png") no-repeat;
+  background: url("../Images/imeg bee/59398-OAB3VW-247.png") no-repeat;
   background-size: 100%;
 
 
